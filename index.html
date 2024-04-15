@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Static Website</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Welcome to Our Website</h1>
+        <nav>
+            <a href="#section1">Home</a>
+            <a href="#section2">Services</a>
+            <a href="#section3">About Us</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Section 1: Home -->
+        <section id="section1">
+            <h2>Home</h2>
+            <p>Welcome to our website! We offer a wide range of services to meet your needs. Explore our website to learn more about what we do.</p>
+        </section>
+
+        <!-- Section 2: Services -->
+        <section id="section2">
+            <h2>Services</h2>
+            <p>We provide exceptional services that exceed your expectations. Whether you need a specific solution or ongoing support, we have you covered.</p>
+        </section>
+
+        <!-- Section 3: About Us -->
+        <section id="section3">
+            <h2>About Us</h2>
+            <p>Our team is dedicated to delivering high-quality services to our clients. We value integrity, excellence, and teamwork.</p>
+        </section>
+
+        <!-- Questions? We Can Help. Section -->
+        <section id="contact">
+            <h2>Questions? We Can Help.</h2>
+            <form action="https://YOUR_FORM_SUBMISSION_SERVICE_URL" method="POST">
+                <!-- Name input field -->
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <!-- Email input field -->
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <!-- How Can We Help? input field -->
+                <div class="form-group">
+                    <label for="message">How Can We Help?</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+
+                <!-- Submit button -->
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Your Website</p>
+    </footer>
+</body>
+
+</html>
